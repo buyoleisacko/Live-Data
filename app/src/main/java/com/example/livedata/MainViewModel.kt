@@ -1,4 +1,11 @@
 package com.example.livedata
 
-class MainViewModel {
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.ViewModel
+
+class MainViewModel : ViewModel() {
+
+    val currentRandomFruitName: LiveData<String>
+        get() = FakeRepository.currentRandomFruitName
+    fun onChangeRandomFruitClick() = FakeRepository.getRandomFruitName()
 }
