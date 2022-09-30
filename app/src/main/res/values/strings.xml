@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Live Data</string>
     <string name="change_fruit">Change Fruit</string>
+    <string name="enter_a_fruit">Enter a fruit</string>
+    <string name="display_edittext_content">Display EditText Content</string>
 </resources>
